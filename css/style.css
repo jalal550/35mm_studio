@@ -72,6 +72,8 @@ body {
     font-weight: 400
 }
 
+
+
 .back-to-top {
     position: fixed;
     width: 44px;
@@ -87,11 +89,9 @@ body {
     }
 }
 
-
 .footer .contact-link a:hover, .footer .help-link a:hover, .footer .short-link a:hover, .topbar .top-info {
     letter-spacing: 1px
 }
-
 .topbar .top-link {
     display: flex;
     align-items: center;
@@ -123,8 +123,9 @@ body {
     }
 }
 
+
 .nav-section {
-    position: sticky;
+    position:sticky;
     z-index: 100;
     transition: background-color .3s ease-in-out
 }
@@ -174,6 +175,7 @@ body {
 }
 
 .carousel-item {
+
     position: relative
 }
 
